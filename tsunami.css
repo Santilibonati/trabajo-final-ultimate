@@ -1,0 +1,157 @@
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+section,.wall-chico,.wall-grande{
+    background-color: #81bece;
+    color: #012e4a;
+}
+
+#titulo-inicios,
+.parrafo-largo{
+     word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+.seccion-tsunami{
+    padding: 7% 5%;
+}
+
+.div-tsunami-seccion{
+    padding: 35px;
+}
+
+.wall-grande{
+    height: 15vh;
+}
+.wall-chico{
+    height: 9vh;
+    background-color: #bed7e6;
+}
+
+#nav-bar-tsunami{
+    background-color: #036280;
+}
+
+.nav-bar-tsunami{
+    color: #81bece;
+}
+
+a.nav-link{
+    color: #3795cf;
+}
+a.nav-link:hover{
+    color: #dee5e3;
+    transition: background-color 1s, color 1s;
+}
+
+.hero__info{
+    padding: 0.3rem;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+#seccion-hero{
+    background: url("tsunami-team.jpg") fixed center/cover;
+    height:850px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seccion-hero::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.8;
+}
+
+#titulo-hero{
+    color:#2a74a1;
+    font-size: 4rem;
+    margin: auto;
+    padding: 0.3rem;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+#subtitulo-hero{
+    color:#e8ede7;
+    font-size: 2rem;
+    padding: 0.3rem;
+    position: absolute; 
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#titulo-inicios{
+    font-size: 2rem;
+
+}
+.parrafo-inicio{
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+}
+
+li.li-equipos > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+ol>li::marker{
+    font-weight: bold;
+}
+ol li:first-child{
+    color:goldenrod;
+}
+ol li:nth-child(2){
+    color:silver;
+}
+ol li:nth-child(3){
+    color:rgb(204, 137, 50);
+}
+
+
+h4{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+footer{
+    color: #dee5e3;
+    background-color: #036280;
+    font-size: large;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+#ig-buttom-a{
+    color: #dee5e3;
+}
+#seccion2{
+    background-color:#bed7e6;
+}
+#titulo-liga{
+    padding-bottom: 25px;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+#titulo-nacionales{
+    padding-bottom: 25px;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+

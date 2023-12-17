@@ -1,0 +1,150 @@
+/*ESTILOS DEL TP FINAL DEV WEB*/
+
+/* 
+   .paletadecolores
+   rojos:#bd213f,
+            #ca0015,
+            #b91e1e, 
+      verdes:#0b6b3d,
+      azul:#02425c,
+           #42798e,
+           #012e4a, 
+      */
+
+/*ESTILOS SEGUN ELEMENTO HTML*/
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 7% 6%;
+}
+
+h1 {
+    font-size: 5rem !important;
+    font-weight: lighter;
+}
+h2 {
+    font-size: 2rem !important;
+}
+h3 {
+    font-size: 3rem !important;
+    text-align: center;
+}
+h4 {
+    font-size: 2.5rem !important;
+}
+p {
+    font-size: 1.5rem !important;
+}
+h1,h3{
+    margin: 40px auto 10px auto;
+}
+h3,h4{
+    font-weight: bold;
+}
+
+h1, h2,footer{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+footer{
+    background-color:#02425c;
+    color: #bca693;
+    font-size:2rem;
+    padding: 3rem;
+}
+
+
+
+/*ESTILOS SEGUN ID*/
+#a-reglas{
+    color: #c7814a;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+#a-reglas:hover{
+    color: #095816;
+    opacity: 0.8;
+}
+
+#seccion1,#seccion3{ /*las secciones de fondo claro*/
+    background-color: #beb7b2;
+}
+#seccion2{ /*la de de fondo oscuro*/
+    background-color: #bc0119;
+}
+
+#seccion1,#seccion2,#seccion3{
+    color: #0b100c;
+}
+#nav-ultimate{
+   background-color:#02425c;
+}
+#seccion0{
+    padding: 0 !important;
+    background: url("ultimate-frisbee.jpg") fixed top/cover;
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#seccion0::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.8;
+}
+#seccion0-div{
+    padding: 0.3rem;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+#titulo-inicio{
+    color:rgb(49, 49, 133);
+    font-size:4rem;
+    text-align: center;
+}
+
+#a-pagina-hija{ 
+    color: #bc0119;
+    cursor: pointer;
+    
+}
+#a-pagina-hija:hover{
+    color: #fff;
+    transition: color 1s;
+}
+
+
+/*ESTILOS SEGUN CLASES*/
+a.nav-link{
+    color:#81bece;
+    cursor: pointer;
+    
+}
+a.nav-link:hover{
+    color: #fff;
+    transition: color 1s;
+}
+.sub-contenedor-seccion{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#posiciones-juego{
+    
+    color:rgb(94, 14, 14);
+}
+
+ 
